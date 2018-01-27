@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
 import androideduio.com.listsample.R
-import androideduio.com.listsample.StudentInfo
+import androideduio.com.listsample.model.StudentInfo
 
 /**
  * Created by merthaskan on 1/27/2018.

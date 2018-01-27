@@ -1,4 +1,4 @@
-package androideduio.com.listsample
+package androideduio.com.listsample.model
 
 /**
  * Created by merthaskan on 1/27/2018.
