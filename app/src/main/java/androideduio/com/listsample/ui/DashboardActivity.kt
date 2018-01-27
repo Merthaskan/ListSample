@@ -14,9 +14,12 @@ class DashboardActivity : AppCompatActivity() {
         setContentView(R.layout.activity_dashboard)
 
         val usersFragmentListView = UsersFragmentListView.newInstance()
+        val usersFragmentRecyclerView = UsersFragmentRecyclerView.newInstance()
+
         val fragmentManager = supportFragmentManager
-        val fragmentTransaction=fragmentManager.beginTransaction()
-        fragmentTransaction.add(R.id.activity_dashboard_frmFragment,usersFragmentListView).commit()
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        //fragmentTransaction.add(R.id.activity_dashboard_frmFragment, usersFragmentListView).commit()
+        fragmentTransaction.add(R.id.activity_dashboard_frmFragment, usersFragmentRecyclerView).commit()
     }
 
 }
